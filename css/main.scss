@@ -2,7 +2,7 @@
 
 $colors: (
 	primary: #ffffff,
-	text-color: #303842
+	text-color: #303842,
 );
 
 * {
@@ -16,6 +16,18 @@ body {
 	color: map-get($colors, text-color);
 	max-width: 1140px;
 	margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	line-height: 1.1;
+	color: #303842;
 }
 
 a {
@@ -104,3 +116,36 @@ header {
 // 		}
 // 	}
 // }
+.banner {
+	padding-top: 150px;
+	padding-bottom: 150px;
+	border: 1px solid red;
+	h1 {
+		font-size: 50px;
+		margin: 10px 20px;
+		text-align: center;
+	}
+	p {
+		text-align: center;
+		font-size: 18px;
+		margin: 0px 100px;
+	}
+	button {
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+}
+
+.button {
+	text-align: center;
+	border-radius: 50px;
+	color: #4caf50;
+	box-shadow: 0px 0px 12px 0px rgba(108, 108, 108, 0.17);
+	background: transparent;
+	border: 0;
+	padding: 14px 35px;
+	font-size: 14px;
+	font-weight: normal;
+	display: block;
+	cursor: pointer;
+}
