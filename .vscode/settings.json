@@ -1,0 +1,8 @@
+{
+    "liveServer.settings.port": 5501,
+    "editor.wordWrapColumn": 120,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wrappingIndent": "same",
+    "editor.wordWrapColumn": n,
+    "prettier.printWidth": 200
+}
